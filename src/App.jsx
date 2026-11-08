@@ -11,7 +11,6 @@
 //   )
 // }
 import React from 'react';
-import TaskOne from './TaskOne';
 import LMSTaskTwo from './LMSTaskTwo';
 
 
