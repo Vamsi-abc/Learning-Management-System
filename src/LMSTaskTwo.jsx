@@ -325,8 +325,8 @@ export default function App() {
       lessonsCount: 2,
       description: newCourseForm.description || "Course details coming soon.",
       lessons: [
-        { id: "l1", title: "1. Core Overview & Architecture", duration: "30 mins", videoUrl: "https://www.youtube.com/embed/SqcY0GlETPk", content: "Introductory module covering foundational topics." },
-        { id: "l2", title: "2. Practical Lab Implementation", duration: "45 mins", videoUrl: "https://www.youtube.com/embed/6ThXsUwLWvc", content: "Hands-on implementation and exercises." }
+        { id: "l1", title: "1. Core Overview & Architecture", duration: "8:51 mins", videoUrl: "https://www.youtube.com/embed/TUXh42V_ng4?si=xQItcYQ1jByhbiI5", content: "Introductory module covering foundational topics." },
+        { id: "l2", title: "2. Practical Lab Implementation", duration: "13:39 mins", videoUrl: "https://www.youtube.com/embed/hdzOlCI9QHc?list=PLs-PuMchbMBfLmQqs-Q6l6vzlH1HrEBVW", content: "Hands-on implementation and exercises." }      
       ],
       quiz: [
         { id: "q1", question: "Did you complete all review exercises?", options: ["Yes, fully verified", "Needs more review"], answer: 0 }
@@ -734,7 +734,7 @@ export default function App() {
           <section>
             <div className="headerSection">
               <h2 className="headerTitle">Student Profile & Badges</h2>
-              <p className="headerSubtitle">Manage credentials and technical certifications</p>
+              <p className="headerSubtitle">Manage Credentials and Certifications</p>
             </div>
 
             <div className="studioColumns">
@@ -745,22 +745,22 @@ export default function App() {
                   </div>
                   <div>
                     <h3 style={{ color: "#FFFFFF", fontSize: "22px" }}>Devapuja YugaRaja Vamsi</h3>
-                    <p style={{ color: "#94A3B8" }}>Specialization: Cyber Security</p>
+                    <p style={{ color: "#94A3B8" }}>Specialization : Computer Science & Engineering in Cyber Security</p>
                   </div>
                 </div>
 
                 <div className="inputFieldBlock">
                   <label className="inputFieldLabel">Email ID</label>
-                  <input className="textInputBox" disabled value="vamsi@gmail.com" />
+                  <input className="textInputBox" disabled value="Vamsi@gmail.com" />
                 </div>
                 <div className="inputFieldBlock">
-                  <label className="inputFieldLabel">Primary Stack</label>
-                  <input className="textInputBox" disabled value="Cyber Security, React, Python, AWS, Networking & Cryptography" />
+                  <label className="inputFieldLabel">Primary Skills</label>
+                  <input className="textInputBox" disabled value="Cyber Security, Front-End, Python, AWS, Networking & Cryptography" />
                 </div>
               </div>
 
               <div className="statCard">
-                <h3 style={{ color: "#FFFFFF", marginBottom: "16px" }}>Verified Competency Badges</h3>
+                <h3 style={{ color: "#FFFFFF", marginBottom: "16px" }}>Verified Badges 🥇🥇🥇</h3>
                 {Object.entries(quizScores).length === 0 ? (
                   <p style={{ color: "#94A3B8" }}>Complete quizzes to earn validated course badges.</p>
                 ) : (
